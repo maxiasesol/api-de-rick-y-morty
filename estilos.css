@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: antiquewhite;
+    font-family: 'DM Sans', sans-serif;
+
+
+}
+h1{
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(38, 221, 38);
+}
+body{
+    background-color: rgb(39, 39, 39);
+    padding: 10px;
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.image-container{
+    display: flex;
+}
+
+.image-container>image{
+    width: 100%;
+
+}
+article{
+    padding: 20px;
+
+
+}
+h2,span{
+    padding: 10px;
+}
